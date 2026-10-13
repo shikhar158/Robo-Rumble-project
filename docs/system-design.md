@@ -6,8 +6,6 @@ The rover uses four driven wheels on independent trailing arms. Battery mass is 
 
 ![Robo Rumble component placement top and side views](../cad/component-placement.svg)
 
-The drawing is a layout concept, not a manufacturing drawing. An editable OpenSCAD 3D layout model is in `../cad/`; see its README for use. Confirm actual part dimensions before drilling.
-
 ### Weight optimization and CG centralization
 
 - Use a light but stiff chassis: 3 mm plywood for a low-cost first build, or 2-3 mm aluminium with cross-bracing where needed. Remove material only where it does not weaken motor, arm, battery, or shock mounts.
