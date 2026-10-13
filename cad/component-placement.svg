@@ -1,69 +1,68 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
 <title id="title">Robo Rumble component placement</title>
-<desc id="desc">Dimensioned concept drawing with top view of chassis component locations and side view of low battery and center of gravity.</desc>
-<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 z" fill="#334155"/></marker></defs>
-<rect width="1100" height="760" fill="#f8fafc"/>
-<text x="40" y="42" font-family="Arial" font-size="28" font-weight="bold" fill="#111827">Robo Rumble — component placement concept</text>
-<text x="55" y="88" font-family="Arial" font-size="20" font-weight="bold" fill="#0f172a">TOP VIEW • dimensions in mm • not to fabrication scale</text>
-<!-- chassis plate 300 x 240 -->
-<rect x="170" y="145" width="300" height="240" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
-<text x="265" y="162" font-family="Arial" font-size="15" fill="#1e3a8a">Chassis plate: 300 × 240</text>
-<!-- wheels 70 dia, 30 width, track 270, wheelbase 260 -->
-<g fill="#334155" stroke="#0f172a" stroke-width="3">
- <rect x="155" y="115" width="70" height="30" rx="11"/><rect x="415" y="115" width="70" height="30" rx="11"/>
- <rect x="155" y="385" width="70" height="30" rx="11"/><rect x="415" y="385" width="70" height="30" rx="11"/>
-</g>
-<g font-family="Arial" font-size="12" fill="white"><text x="164" y="143">LF wheel</text><text x="423" y="143">RF wheel</text><text x="164" y="399">LR wheel</text><text x="423" y="399">RR wheel</text></g>
-<!-- motor pods inside corners -->
-<g fill="#fca5a5" stroke="#b91c1c" stroke-width="2">
- <rect x="225" y="170" width="46" height="36" rx="5"/><rect x="369" y="170" width="46" height="36" rx="5"/>
- <rect x="225" y="324" width="46" height="36" rx="5"/><rect x="369" y="324" width="46" height="36" rx="5"/>
-</g>
-<g font-family="Arial" font-size="12" fill="#7f1d1d"><text x="231" y="192">LF motor</text><text x="375" y="192">RF motor</text><text x="231" y="346">LR motor</text><text x="375" y="346">RR motor</text></g>
-<!-- battery central low -->
-<rect x="265" y="232" width="110" height="70" rx="8" fill="#fbbf24" stroke="#92400e" stroke-width="3"/>
-<text x="285" y="260" font-family="Arial" font-size="16" font-weight="bold" fill="#451a03">3S battery</text><text x="277" y="282" font-family="Arial" font-size="13" fill="#451a03">heaviest part • low</text>
-<!-- CG marker -->
-<circle cx="320" cy="267" r="11" fill="#dc2626" stroke="white" stroke-width="3"/><line x1="320" y1="267" x2="320" y2="220" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 4"/>
-<text x="329" y="220" font-family="Arial" font-size="13" font-weight="bold" fill="#991b1b">CG target near center</text>
-<!-- top plate electronics dotted outlines -->
-<g fill="#ede9fe" stroke="#7c3aed" stroke-width="2" stroke-dasharray="5 3">
- <rect x="275" y="177" width="82" height="28" rx="4"/><rect x="276" y="307" width="80" height="26" rx="4"/>
- <rect x="277" y="211" width="36" height="16" rx="3"/><rect x="318" y="211" width="36" height="16" rx="3"/>
-</g>
-<g font-family="Arial" font-size="11" fill="#5b21b6"><text x="284" y="196">upper deck: ESP32</text><text x="284" y="324">buck + fuse</text><text x="279" y="223">L driver</text><text x="321" y="223">R driver</text></g>
-<!-- suspension arm/pivot hints -->
-<g stroke="#b45309" stroke-width="4"><path d="M225 187 L201 130"/><path d="M415 187 L449 130"/><path d="M225 343 L201 400"/><path d="M415 343 L449 400"/></g>
-<g fill="#f97316" stroke="#7c2d12" stroke-width="2"><circle cx="225" cy="187" r="5"/><circle cx="415" cy="187" r="5"/><circle cx="225" cy="343" r="5"/><circle cx="415" cy="343" r="5"/></g>
-<text x="50" y="435" font-family="Arial" font-size="14" fill="#334155">Red blocks: motors • orange links: trailing arms • dashed purple: light electronics on upper deck above the battery</text>
-<!-- dimension lines -->
-<line x1="170" y1="430" x2="470" y2="430" stroke="#334155" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="284" y="424" font-family="Arial" font-size="14" fill="#334155">300 chassis length</text>
-<line x1="505" y1="145" x2="505" y2="385" stroke="#334155" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="516" y="272" font-family="Arial" font-size="14" fill="#334155" transform="rotate(90 516 272)">240 chassis width</text>
-<line x1="190" y1="112" x2="450" y2="112" stroke="#2563eb" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="275" y="106" font-family="Arial" font-size="13" fill="#1d4ed8">260 wheelbase</text>
-<line x1="140" y1="130" x2="140" y2="400" stroke="#2563eb" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="125" y="272" font-family="Arial" font-size="13" fill="#1d4ed8" transform="rotate(-90 125 272)">270 wheel track</text>
-<!-- side view -->
-<text x="640" y="88" font-family="Arial" font-size="20" font-weight="bold" fill="#0f172a">SIDE VIEW • mass height</text>
-<line x1="655" y1="405" x2="1030" y2="405" stroke="#64748b" stroke-width="4"/>
-<rect x="700" y="245" width="280" height="22" rx="4" fill="#93c5fd" stroke="#1d4ed8" stroke-width="3"/><text x="790" y="261" font-family="Arial" font-size="13" fill="#1e3a8a">chassis plate</text>
-<!-- wheel side profiles -->
-<circle cx="735" cy="370" r="35" fill="#334155" stroke="#0f172a" stroke-width="3"/><circle cx="945" cy="370" r="35" fill="#334155" stroke="#0f172a" stroke-width="3"/>
-<!-- motor and battery -->
-<rect x="718" y="326" width="35" height="24" rx="4" fill="#fca5a5" stroke="#b91c1c" stroke-width="2"/><rect x="927" y="326" width="35" height="24" rx="4" fill="#fca5a5" stroke="#b91c1c" stroke-width="2"/>
-<rect x="810" y="267" width="75" height="44" rx="5" fill="#fbbf24" stroke="#92400e" stroke-width="3"/><text x="819" y="293" font-family="Arial" font-size="13" fill="#451a03">battery low</text>
-<rect x="815" y="235" width="65" height="12" rx="3" fill="#c4b5fd" stroke="#6d28d9" stroke-width="2"/><text x="886" y="245" font-family="Arial" font-size="12" fill="#5b21b6">light electronics</text>
-<!-- CG -->
-<circle cx="847" cy="295" r="8" fill="#dc2626" stroke="white" stroke-width="2"/><line x1="847" y1="295" x2="847" y2="405" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 4"/>
-<text x="855" y="325" font-family="Arial" font-size="13" fill="#991b1b">keep CG low</text>
-<!-- arms/shocks -->
-<path d="M735 335 L780 267" stroke="#b45309" stroke-width="6"/><path d="M760 252 L782 320" stroke="#0f766e" stroke-width="6"/><path d="M755 257 l12 4 -9 8 12 4 -9 8 12 4 -9 8" fill="none" stroke="#14b8a6" stroke-width="3"/>
-<text x="670" y="440" font-family="Arial" font-size="14" fill="#334155">Battery is the main mass; put it low. Place lighter ESP32/driver boards above it, not heavy parts.</text>
-<!-- legend -->
-<rect x="655" y="500" width="390" height="155" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
-<text x="675" y="530" font-family="Arial" font-size="17" font-weight="bold" fill="#111827">Placement key</text>
-<circle cx="684" cy="558" r="8" fill="#dc2626"/><text x="702" y="563" font-family="Arial" font-size="14" fill="#334155">Estimated centre of gravity (CG) target</text>
-<rect x="676" y="579" width="16" height="12" fill="#fbbf24"/><text x="702" y="590" font-family="Arial" font-size="14" fill="#334155">Battery: low and centred</text>
-<rect x="676" y="606" width="16" height="12" fill="#ede9fe" stroke="#7c3aed" stroke-dasharray="3 2"/><text x="702" y="617" font-family="Arial" font-size="14" fill="#334155">Light electronics: upper deck</text>
-<text x="40" y="700" font-family="Arial" font-size="14" fill="#475569">Concept drawing only. Confirm real wheel, motor, arm, shock and mounting dimensions before fabrication.</text>
+<desc id="desc">Clean top and side diagrams showing component placement, chassis dimensions, battery, motors, electronics, and centre of gravity.</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#64748b"/></marker><style>.h{font:700 28px Arial;fill:#14283e}.sh{font:700 18px Arial;fill:#14283e}.b{font:15px Arial;fill:#334155}.s{font:12px Arial;fill:#475569}.d{font:13px Arial;fill:#2563eb}.card{fill:#fff;stroke:#d8e1eb;stroke-width:2}.dim{stroke:#64748b;stroke-width:1.5;fill:none}</style></defs>
+<rect width="1200" height="900" fill="#f3f6fa"/>
+<text x="38" y="48" class="h">Robo Rumble | Component placement</text>
+<text x="40" y="77" class="b">Top and side views • dimensions in mm • layout concept, not a fabrication drawing</text>
+<!-- top view -->
+<rect x="30" y="100" width="640" height="515" rx="16" class="card"/>
+<text x="55" y="136" class="sh">TOP VIEW</text><text x="55" y="158" class="s">FRONT ↑</text>
+<!-- 300 x 240 plate at 1.2 px/mm -->
+<rect x="120" y="196" width="360" height="288" rx="10" fill="#e5efff" stroke="#3775c5" stroke-width="3"/>
+<text x="274" y="216" class="s">chassis 300 × 240</text>
+<!-- wheel footprints: 70 x 30; 260 wheelbase; 270 track -->
+<g fill="#25384e" stroke="#12253b" stroke-width="2"><rect x="103" y="160" width="84" height="36" rx="12"/><rect x="415" y="160" width="84" height="36" rx="12"/><rect x="103" y="484" width="84" height="36" rx="12"/><rect x="415" y="484" width="84" height="36" rx="12"/></g>
+<g stroke="#7c8fa4" stroke-width="1.5"><path d="M115 164v28M130 162v32M145 162v32M160 162v32M175 164v28M427 164v28M442 162v32M457 162v32M472 162v32M487 164v28M115 488v28M130 486v32M145 486v32M160 486v32M175 488v28M427 488v28M442 486v32M457 486v32M472 486v32M487 488v28"/></g>
+<g font-family="Arial" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle"><text x="145" y="184">LF WHEEL</text><text x="457" y="184">RF WHEEL</text><text x="145" y="508">LR WHEEL</text><text x="457" y="508">RR WHEEL</text></g>
+<!-- arms and pivots -->
+<g stroke="#b7791f" stroke-width="6" stroke-linecap="round"><path d="M218 256L170 196M382 256L430 196M218 424L170 484M382 424L430 484"/></g>
+<g fill="#f1a536" stroke="#8a5411" stroke-width="2"><circle cx="218" cy="256" r="7"/><circle cx="382" cy="256" r="7"/><circle cx="218" cy="424" r="7"/><circle cx="382" cy="424" r="7"/></g>
+<!-- motor envelopes -->
+<g fill="#e78c8c" stroke="#a63d3d" stroke-width="2"><rect x="190" y="260" width="56" height="44" rx="6"/><rect x="354" y="260" width="56" height="44" rx="6"/><rect x="190" y="376" width="56" height="44" rx="6"/><rect x="354" y="376" width="56" height="44" rx="6"/></g>
+<g font-family="Arial" font-size="10" font-weight="bold" fill="#5c2020" text-anchor="middle"><text x="218" y="286">MOTOR</text><text x="382" y="286">MOTOR</text><text x="218" y="402">MOTOR</text><text x="382" y="402">MOTOR</text></g>
+<!-- electronics deck and battery -->
+<rect x="265" y="290" width="70" height="30" rx="5" fill="#8e7acb"/><text x="300" y="310" font-family="Arial" font-size="12" font-weight="bold" fill="white" text-anchor="middle">ESP32</text>
+<rect x="180" y="328" width="50" height="28" rx="4" fill="#70b995"/><rect x="370" y="328" width="50" height="28" rx="4" fill="#70b995"/>
+<text x="205" y="347" class="s" text-anchor="middle">L driver</text><text x="395" y="347" class="s" text-anchor="middle">R driver</text>
+<rect x="265" y="411" width="70" height="20" rx="4" fill="#75c8d4"/><text x="300" y="425" class="s" text-anchor="middle">buck + fuse</text>
+<rect x="234" y="340" width="132" height="60" rx="8" fill="#f1bd58" stroke="#a86e13" stroke-width="3"/>
+<text x="300" y="365" font-family="Arial" font-size="14" font-weight="bold" fill="#4c3611" text-anchor="middle">3S BATTERY</text><text x="300" y="393" class="s" text-anchor="middle">heaviest part • low</text>
+<circle cx="300" cy="370" r="7" fill="#d93848" stroke="white" stroke-width="2"/>
+<line x1="300" y1="370" x2="300" y2="435" stroke="#d93848" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="310" y="438" font-family="Arial" font-size="11" font-weight="bold" fill="#a22535">CG target</text>
+<!-- dimensions -->
+<line x1="120" y1="550" x2="480" y2="550" class="dim" marker-start="url(#a)" marker-end="url(#a)"/><text x="300" y="570" class="d" text-anchor="middle">300 chassis length</text>
+<line x1="75" y1="178" x2="75" y2="502" class="dim" marker-start="url(#a)" marker-end="url(#a)"/><text x="59" y="340" class="d" text-anchor="middle" transform="rotate(-90 59 340)">270 wheel track</text>
+<line x1="145" y1="145" x2="457" y2="145" class="dim" marker-start="url(#a)" marker-end="url(#a)"/><text x="301" y="140" class="d" text-anchor="middle">260 wheelbase</text>
+<text x="55" y="594" class="s">Gold links = trailing arms • dashed red line = CG target • tire footprints shown outside chassis</text>
+<!-- placement key -->
+<rect x="690" y="100" width="480" height="515" rx="16" class="card"/>
+<text x="720" y="140" class="sh">PLACEMENT GUIDE</text>
+<circle cx="732" cy="184" r="8" fill="#d93848"/><text x="754" y="190" class="b">CG target near chassis centre</text>
+<rect x="722" y="213" width="20" height="16" rx="3" fill="#f1bd58"/><text x="754" y="227" class="b">Battery: low and centred</text>
+<rect x="722" y="250" width="20" height="16" rx="3" fill="#8e7acb"/><text x="754" y="264" class="b">ESP32: light, above battery</text>
+<rect x="722" y="287" width="20" height="16" rx="3" fill="#70b995"/><text x="754" y="301" class="b">Drivers: balanced left/right</text>
+<rect x="722" y="324" width="20" height="16" rx="3" fill="#e78c8c"/><text x="754" y="338" class="b">Motors: one at each wheel</text>
+<line x1="720" y1="368" x2="1138" y2="368" stroke="#d8e1eb" stroke-width="2"/>
+<text x="720" y="405" class="sh">WHY THIS HELPS STABILITY</text>
+<text x="720" y="440" class="b">1. Battery is the heaviest part;</text><text x="741" y="463" class="b">mounting it low lowers CG height.</text>
+<text x="720" y="498" class="b">2. Centering it balances front/rear</text><text x="741" y="521" class="b">and left/right mass.</text>
+<text x="720" y="556" class="b">3. Wide track adds side support.</text>
+<text x="720" y="590" class="s">Keep heavy add-ons low; avoid unnecessary ballast.</text>
+<!-- side elevation -->
+<rect x="30" y="635" width="1140" height="225" rx="16" class="card"/>
+<text x="55" y="672" class="sh">SIDE VIEW • LOW MASS POSITION</text>
+<line x1="78" y1="824" x2="655" y2="824" stroke="#64748b" stroke-width="3"/>
+<circle cx="185" cy="772" r="52" fill="#25384e" stroke="#12253b" stroke-width="3"/><circle cx="535" cy="772" r="52" fill="#25384e" stroke="#12253b" stroke-width="3"/>
+<rect x="225" y="736" width="270" height="13" rx="3" fill="#7fb0ed" stroke="#3775c5" stroke-width="2"/>
+<rect x="340" y="686" width="70" height="50" rx="6" fill="#f1bd58" stroke="#a86e13" stroke-width="2"/><text x="375" y="716" class="s" text-anchor="middle">battery</text>
+<rect x="342" y="673" width="66" height="12" rx="3" fill="#8e7acb"/><text x="420" y="683" class="s">light boards above</text>
+<circle cx="375" cy="712" r="5" fill="#d93848"/><line x1="375" y1="712" x2="375" y2="824" stroke="#d93848" stroke-width="2" stroke-dasharray="5 4"/>
+<path d="M185 755L236 741M484 741L535 755" stroke="#b7791f" stroke-width="5"/>
+<line x1="620" y1="712" x2="620" y2="824" class="dim" marker-start="url(#a)" marker-end="url(#a)"/><text x="638" y="773" class="d">CG height</text>
+<text x="760" y="725" class="sh">Balance the finished rover</text>
+<text x="760" y="759" class="b">Use two scales: compare left/right, then front/rear.</text>
+<text x="760" y="788" class="b">Shift and secure the battery until readings are close.</text>
+<text x="760" y="826" class="s">All component shapes are simplified envelopes; check actual sizes and suspension travel.</text>
 </svg>
-
-

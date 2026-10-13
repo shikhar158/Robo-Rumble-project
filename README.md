@@ -28,14 +28,12 @@ Suspension helps keep wheels in contact and soften impacts; it does not by itsel
 - `docs/system-design.md` — system overview.
 - `docs/wiring-diagram.md` — Mermaid diagrams and pin connections.
 - `cad/component-placement.svg` — top and side component placement diagram.
-- `cad/component-placement.dxf` — SolidWorks-importable 2D placement drawing.
 - `cad/component-layout.scad` — editable 3D layout model.
 - `docs/test-results.md` — test log.
 - `electronics/components-list.csv` — proposed India-oriented parts list.
 - `firmware/src/main.cpp` — ESP32 C++ controller.
 - `platformio.ini` — PlatformIO board and build configuration.
 - `cad/` — chassis, suspension, and component placement design files.
-- `media/` — project photos and demo links.
 
 ## Controller
 

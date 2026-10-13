@@ -6,7 +6,7 @@ The rover uses four driven wheels on independent trailing arms. Battery mass is 
 
 ![Robo Rumble component placement top and side views](../cad/component-placement.svg)
 
-The drawing is a layout concept, not a manufacturing drawing. A SolidWorks-importable 2D DXF and editable OpenSCAD 3D layout are in `../cad/`; see its README for use. Confirm actual part dimensions before drilling.
+The drawing is a layout concept, not a manufacturing drawing. An editable OpenSCAD 3D layout model is in `../cad/`; see its README for use. Confirm actual part dimensions before drilling.
 
 ### Weight optimization and CG centralization
 
