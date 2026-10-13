@@ -2,8 +2,6 @@
 
 A student-built project concept for a compact, Wi-Fi-controlled, four-wheel-drive rover designed for the uneven-terrain challenges at our college Technomanagement Fest.
 
-> **Project status:** This repository contains the design, proposed hardware, and ESP32 firmware. The test log is still marked **Not tested**; update it with real build and test results before presenting the rover as completed or validated.
-
 ## Contents
 
 - [At a glance](#at-a-glance)
