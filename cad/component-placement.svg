@@ -10,8 +10,8 @@
 <text x="265" y="162" font-family="Arial" font-size="15" fill="#1e3a8a">Chassis plate: 300 × 240</text>
 <!-- wheels 70 dia, 30 width, track 270, wheelbase 260 -->
 <g fill="#334155" stroke="#0f172a" stroke-width="3">
- <rect x="155" y="110" width="70" height="30" rx="11"/><rect x="415" y="110" width="70" height="30" rx="11"/>
- <rect x="155" y="380" width="70" height="30" rx="11"/><rect x="415" y="380" width="70" height="30" rx="11"/>
+ <rect x="155" y="115" width="70" height="30" rx="11"/><rect x="415" y="115" width="70" height="30" rx="11"/>
+ <rect x="155" y="385" width="70" height="30" rx="11"/><rect x="415" y="385" width="70" height="30" rx="11"/>
 </g>
 <g font-family="Arial" font-size="12" fill="white"><text x="164" y="143">LF wheel</text><text x="423" y="143">RF wheel</text><text x="164" y="399">LR wheel</text><text x="423" y="399">RR wheel</text></g>
 <!-- motor pods inside corners -->
@@ -33,14 +33,14 @@
 </g>
 <g font-family="Arial" font-size="11" fill="#5b21b6"><text x="284" y="196">upper deck: ESP32</text><text x="284" y="324">buck + fuse</text><text x="279" y="223">L driver</text><text x="321" y="223">R driver</text></g>
 <!-- suspension arm/pivot hints -->
-<g stroke="#b45309" stroke-width="4"><path d="M225 187 L201 125"/><path d="M415 187 L449 125"/><path d="M225 343 L201 395"/><path d="M415 343 L449 395"/></g>
+<g stroke="#b45309" stroke-width="4"><path d="M225 187 L201 130"/><path d="M415 187 L449 130"/><path d="M225 343 L201 400"/><path d="M415 343 L449 400"/></g>
 <g fill="#f97316" stroke="#7c2d12" stroke-width="2"><circle cx="225" cy="187" r="5"/><circle cx="415" cy="187" r="5"/><circle cx="225" cy="343" r="5"/><circle cx="415" cy="343" r="5"/></g>
 <text x="50" y="435" font-family="Arial" font-size="14" fill="#334155">Red blocks: motors • orange links: trailing arms • dashed purple: light electronics on upper deck above the battery</text>
 <!-- dimension lines -->
 <line x1="170" y1="430" x2="470" y2="430" stroke="#334155" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="284" y="424" font-family="Arial" font-size="14" fill="#334155">300 chassis length</text>
 <line x1="505" y1="145" x2="505" y2="385" stroke="#334155" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="516" y="272" font-family="Arial" font-size="14" fill="#334155" transform="rotate(90 516 272)">240 chassis width</text>
 <line x1="190" y1="112" x2="450" y2="112" stroke="#2563eb" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="275" y="106" font-family="Arial" font-size="13" fill="#1d4ed8">260 wheelbase</text>
-<line x1="140" y1="125" x2="140" y2="395" stroke="#2563eb" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="125" y="272" font-family="Arial" font-size="13" fill="#1d4ed8" transform="rotate(-90 125 272)">270 wheel track</text>
+<line x1="140" y1="130" x2="140" y2="400" stroke="#2563eb" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="125" y="272" font-family="Arial" font-size="13" fill="#1d4ed8" transform="rotate(-90 125 272)">270 wheel track</text>
 <!-- side view -->
 <text x="640" y="88" font-family="Arial" font-size="20" font-weight="bold" fill="#0f172a">SIDE VIEW • mass height</text>
 <line x1="655" y1="405" x2="1030" y2="405" stroke="#64748b" stroke-width="4"/>
@@ -65,4 +65,5 @@
 <rect x="676" y="606" width="16" height="12" fill="#ede9fe" stroke="#7c3aed" stroke-dasharray="3 2"/><text x="702" y="617" font-family="Arial" font-size="14" fill="#334155">Light electronics: upper deck</text>
 <text x="40" y="700" font-family="Arial" font-size="14" fill="#475569">Concept drawing only. Confirm real wheel, motor, arm, shock and mounting dimensions before fabrication.</text>
 </svg>
+
 

@@ -27,12 +27,14 @@ Suspension helps keep wheels in contact and soften impacts; it does not by itsel
 - `docs/methodology.md` — project workflow.
 - `docs/system-design.md` — system overview.
 - `docs/wiring-diagram.md` — Mermaid diagrams and pin connections.
-- `cad/chassis-layout.svg` — chassis and suspension concept drawing.
+- `cad/component-placement.svg` — top and side component placement diagram.
+- `cad/component-placement.dxf` — SolidWorks-importable 2D placement drawing.
+- `cad/component-layout.scad` — editable 3D layout model.
 - `docs/test-results.md` — test log.
 - `electronics/components-list.csv` — proposed India-oriented parts list.
 - `firmware/src/main.cpp` — ESP32 C++ controller.
 - `platformio.ini` — PlatformIO board and build configuration.
-- `cad/` — chassis and suspension design files.
+- `cad/` — chassis, suspension, and component placement design files.
 - `media/` — project photos and demo links.
 
 ## Controller
@@ -50,4 +52,5 @@ Use a 3S pack with an integrated BMS and its specified charger. Fit a fuse near 
 - Demo video: _Add link after recording_
 
 Example prices and availability change. See the component list and [hardware plan](docs/hardware-plan.md) for India-oriented purchase references.
+
 
