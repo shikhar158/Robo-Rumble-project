@@ -116,12 +116,5 @@ The browser joystick sends throttle and steering values. Firmware combines them 
 - Stop if a driver, wire, connector, or battery becomes unusually hot. BTS7960 clone modules can have lower continuous capacity than their advertised peak rating.
 - Test slowly with supervision. The tip-angle calculation is an idealized comparison, not a safe operating limit.
 
-## Project information
-
-- **Event:** College Technomanagement Fest
-- **Team:** _Add team members_
-- **Demo video:** _Add a link after recording_
-
-## Contributions
 
 Contributions and build notes are welcome. If you adapt the design, document the parts you used and add measured test results so others can reproduce your build.
