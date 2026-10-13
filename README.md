@@ -1,6 +1,6 @@
 ﻿# Robo Rumble
 
-A student-built project concept for a compact, Wi-Fi-controlled, four-wheel-drive rover designed for the uneven-terrain challenges at our college's Technomanagement Fest(OJASS'25).
+A student-built project concept for a compact, Wi-Fi-controlled, four-wheel-drive rover designed for the uneven-terrain challenges at our college's Technomanagement Fest (OJASS'25).
 
 ## Contents
 
