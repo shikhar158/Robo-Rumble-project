@@ -1,0 +1,15 @@
+﻿Category,Component,Quantity,Specification / selection criteria,Example / notes
+Control,ESP32 DevKit V1 / ESP32-WROOM,1,Wi-Fi capable standard ESP32 development board,Example India listing about INR 448; change access point password before demo
+Motor,12 V DC metal geared motor,4,37 mm gearbox; 100 RPM; 6 mm shaft; stall current about 1.5-2 A each,Example India listing about INR 178 each; confirm actual stall current and gearbox material
+Wheel,High-traction rubber wheel,4,65-75 mm diameter; treaded; 6 mm D-bore or compatible hub,Buy matched wheels and hubs for the motor shaft
+Motor driver,BTS7960 H-bridge module,2,One per side; each drives two motors in parallel; thermal/current capacity must exceed combined side current,Clone modules vary; do not trust peak current as continuous rating
+Logic,74AHCT125 quad buffer,1,Powered at 5 V; four 3.3 V ESP32 PWM inputs to 5 V logic outputs,Use AHCT family not HC family
+Battery,3S Li-ion pack with BMS,1,11.1 V nominal; 12.6 V full; about 5 Ah; BMS at least 15 A continuous,Example listing about INR 1590; use matched charger and intact protected pack
+Charger,3S Li-ion charger,1,12.6 V output; compatible with battery pack and connector,Buy with battery or follow pack maker instructions
+Power,5 V buck converter,1,Input supports 12.6 V; regulated 5 V output at least 2 A,Power ESP32 VIN/5V, driver logic VCC, and 74AHCT125
+Protection,Inline fuse and holder,1,About 10 A initial size,Install close to battery positive; verify startup current and wire protection
+Suspension,Matched coil-over shocks or spring/damper set,4,About 50-70 mm eye-to-eye; 15-25 mm wheel travel,Lower-cost option: locally fabricated springs plus rubber bump stops
+Mechanical,Chassis plate,1,Approx 300 x 240 mm; 3 mm plywood or 2-3 mm aluminium,Keep body inside wheel track
+Mechanical,Trailing-arm links,4,2-3 mm aluminium flat bar or reinforced plywood; about 65-75 mm long,One arm per wheel; M4/M5 pivot bolts and bushes
+Mechanical,Roll hoop / bumper,1,Light aluminium rod or bent strip,Protect battery and electronics during a tip
+Wiring,Motor/power wire and connectors,As needed,16 AWG battery/motor leads; smaller signal wire,Keep motor power away from ESP32 antenna; common ground

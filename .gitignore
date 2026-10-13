@@ -1,0 +1,12 @@
+﻿# Common generated or local files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.tmp
+*.bak
+
+# Firmware build output
+build/
+.pio/
