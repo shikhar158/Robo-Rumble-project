@@ -1,5 +1,8 @@
 ﻿# CAD concept files
 
-`chassis-layout.svg` is a simple dimensioned concept sketch for a roughly 300 x 240 mm 4WD chassis and one trailing-arm suspension corner. It is an SVG vector drawing, so it can be opened in a browser or edited in a vector graphics application. Verify the physical sizes of the motors, wheels, and shocks before drilling; this concept is not a fabrication-accurate CAD model.
+- `component-placement.svg` — clear top and side view of the proposed part placement, battery position, estimated CG, and dimensions.
+- `component-placement.dxf` — 2D top layout in millimetres. SolidWorks can open/import this as a drawing or sketch; save it as a native SolidWorks file after opening if needed.
+- `component-layout.scad` — simple parametric 3D arrangement of the chassis and component envelopes. Open with OpenSCAD, press F5 to preview, or F6 then export STL. The STL can be imported into SolidWorks as a mesh reference.
+- `chassis-layout.svg` — earlier suspension concept sketch.
 
-Store editable CAD models in this folder when prepared. Keep original source files and optional STEP/STL exports together, and document material and fabrication settings.
+The DXF and SCAD model are layout references, not fabrication-ready models. Component blocks are simplified envelopes. Confirm actual dimensions, suspension motion, fastener positions, and electrical clearances before fabrication. SolidWorks is not installed in this workspace, so no native `.SLDPRT` or `.SLDASM` could be generated here.

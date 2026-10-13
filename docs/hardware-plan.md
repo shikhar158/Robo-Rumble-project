@@ -31,7 +31,7 @@ Four motors may draw 6-8 A together at stall. The battery, BMS, fuse, connectors
 
 ## Mechanical layout and suspension
 
-Put the battery low, between the left and right wheels and near the chassis centre. Mount the ESP32 and drivers above it on insulated standoffs. Target a 220-240 mm wheel track and 250-270 mm wheelbase; keep the body inside the wheel track. Add a rounded roll hoop around the electronics and battery.
+Put the battery low, between the left and right wheels and near the chassis centre. Mount the ESP32 and drivers above it on insulated standoffs. Target a 270 mm wheel track and 260 mm wheelbase; with 70 mm tires, this gives about 300 mm overall width. Keep the 240 mm-wide body inside the tire outer edges. Add a rounded roll hoop around the electronics and battery.
 
 Use one pivoting trailing arm per wheel. Fix the motor to the arm so the wheel moves with it. Fit a coil-over between the arm and chassis at an angle. Add a hard stop so the tire cannot hit the frame or the shock cannot bottom out. Leave a flexible wire loop at each moving motor.
 
@@ -48,7 +48,7 @@ Side view of one corner
 
 The suspension reduces tipping risk by letting wheels follow uneven ground instead of losing contact, and by reducing sharp chassis jolts. Keeping more tires planted reduces the chance of a sudden sideways bounce or pivot over an obstacle. Use moderate spring preload and limited travel: a very soft suspension lets the body lean excessively and can make tipping easier. A wide track and low, centred battery further increase the support margin.
 
-Static estimate: `critical tip angle ≈ atan(track / (2 × CG height))`. A 230 mm track and 90 mm CG height gives about 52 degrees in a stationary idealization. Real movement, wheel grip and body lean reduce this margin; treat the formula as a comparison tool, not a safe operating limit. Test slowly on a supervised ramp.
+Static estimate: `critical tip angle ≈ atan(track / (2 × CG height))`. A 270 mm track and 90 mm CG height gives about 56 degrees in a stationary idealization. Real movement, wheel grip and body lean reduce this margin; treat the formula as a comparison tool, not a safe operating limit. Test slowly on a supervised ramp.
 
 Passive suspension does not make an upside-down robot self-righting. If active recovery is required by the event, add a separate hinged recovery arm with a high-torque servo and its own 5-6 V supply after the driving chassis is stable. The arm must push on the floor to roll the chassis back. Do not describe suspension alone as self-righting.
 
@@ -69,3 +69,4 @@ Passive suspension does not make an upside-down robot self-righting. If active r
 - Common ground is required between battery negative, drivers, buck, buffer and ESP32.
 - Run thick motor wires from a fused battery branch to the drivers; use a separate branch for the buck. Keep motor wiring away from the ESP32 antenna and signal wires.
 - Check stall current, pack/BMS rating, connector rating and driver temperature. Remove battery before rewiring; use a stand and reachable battery disconnect for first tests.
+

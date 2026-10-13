@@ -5,7 +5,7 @@
 <rect width="1000" height="650" fill="#f8fafc"/>
 <text x="40" y="48" font-family="Arial" font-size="26" font-weight="bold" fill="#111827">Robo Rumble — concept layout (dimensions in mm)</text>
 <text x="55" y="92" font-family="Arial" font-size="20" font-weight="bold" fill="#111827">TOP VIEW</text>
-<!-- wheel track horizontal 230, wheelbase 260; schematic -->
+<!-- wheel track horizontal 270, wheelbase 260; schematic -->
 <rect x="250" y="135" width="300" height="260" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
 <text x="330" y="160" font-family="Arial" font-size="16" fill="#1e3a8a">Chassis plate ~300 x 240</text>
 <rect x="350" y="225" width="105" height="85" rx="8" fill="#fbbf24" stroke="#92400e" stroke-width="3"/>
@@ -18,7 +18,7 @@
 <!-- pivot and arms -->
 <g stroke="#b45309" stroke-width="5"><path d="M250 200 L218 198"/><path d="M550 200 L592 198"/><path d="M250 330 L218 332"/><path d="M550 330 L592 332"/></g>
 <g fill="#f97316" stroke="#7c2d12" stroke-width="2"><circle cx="250" cy="200" r="7"/><circle cx="550" cy="200" r="7"/><circle cx="250" cy="330" r="7"/><circle cx="550" cy="330" r="7"/></g>
-<text x="40" y="440" font-family="Arial" font-size="14" fill="#374151">Orange dots: arm pivots • Brown links: trailing arms • Wheel centers approx. 230 mm track × 260 mm wheelbase</text>
+<text x="40" y="440" font-family="Arial" font-size="14" fill="#374151">Orange dots: arm pivots • Brown links: trailing arms • Wheel centers approx. 270 mm track × 260 mm wheelbase</text>
 <line x1="250" y1="420" x2="550" y2="420" stroke="#374151" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="365" y="415" font-family="Arial" font-size="14" fill="#374151">~300 chassis length</text>
 <text x="680" y="92" font-family="Arial" font-size="20" font-weight="bold" fill="#111827">SIDE VIEW — ONE CORNER</text>
 <line x1="690" y1="360" x2="950" y2="360" stroke="#64748b" stroke-width="4"/>
@@ -31,3 +31,4 @@
 <text x="680" y="450" font-family="Arial" font-size="14" fill="#374151">Limit travel to ~15–25 mm; add a compression stop and protect flexible motor wires.</text>
 <text x="40" y="570" font-family="Arial" font-size="14" fill="#475569">Concept only: verify actual motor, wheel, shock and mount dimensions before drilling or fabrication.</text>
 </svg>
+

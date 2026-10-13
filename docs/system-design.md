@@ -4,9 +4,9 @@
 
 The rover uses four driven wheels on independent trailing arms. Battery mass is kept low and close to the center of the chassis; this lowers the centre of gravity (CG) and avoids making the rover front-heavy or side-heavy. The controller and drivers are light, so they can sit above the battery on insulated mounts. Motors remain at the four corners because they drive the wheels; place them symmetrically.
 
-![Robo Rumble top and side chassis concept](../cad/chassis-layout.svg)
+![Robo Rumble component placement top and side views](../cad/component-placement.svg)
 
-The drawing is a layout concept, not a manufacturing drawing. Confirm actual part dimensions before drilling.
+The drawing is a layout concept, not a manufacturing drawing. A SolidWorks-importable 2D DXF and editable OpenSCAD 3D layout are in `../cad/`; see its README for use. Confirm actual part dimensions before drilling.
 
 ### Weight optimization and CG centralization
 
@@ -57,7 +57,9 @@ flowchart LR
 
 Trailing arms let the wheels follow uneven ground and maintain tire contact. Springs and damping soften sharp impacts that can bounce the chassis sideways. A low CG and wide track increase the support margin while the suspension reduces sudden wheel lift. Set spring preload moderately and limit travel: excessive body lean from a soft suspension can make rollover easier. Passive suspension cannot guarantee no rollover and cannot right a fully inverted robot; active recovery requires a separate mechanism.
 
-A rough static comparison is `critical tip angle ≈ tan inverse(track / (2 × CG height))`, where **tan inverse** (also written `atan` or `tan⁻¹`) converts the ratio into an angle. With 230 mm track and 90 mm CG height, the idealized result is about 52°. Motion, suspension lean, and tire grip reduce the real margin; use the formula for comparing layouts, not as a safe operating limit.
+A rough static comparison is `critical tip angle ≈ tan inverse(track / (2 × CG height))`, where **tan inverse** (also written `atan` or `tan⁻¹`) converts the ratio into an angle. With the proposed 270 mm track and 90 mm CG height, the idealized result is about 56°. Motion, suspension lean, and tire grip reduce the real margin; use the formula for comparing layouts, not as a safe operating limit.
 
 See [hardware plan](hardware-plan.md), [wiring diagram](wiring-diagram.md), and [test log](test-results.md) for build details and measurements.
+
+
 

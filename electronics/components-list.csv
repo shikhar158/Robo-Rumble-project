@@ -9,7 +9,8 @@ Charger,3S Li-ion charger,1,12.6 V output; compatible with battery pack and conn
 Power,5 V buck converter,1,Input supports 12.6 V; regulated 5 V output at least 2 A,Power ESP32 VIN/5V, driver logic VCC, and 74AHCT125
 Protection,Inline fuse and holder,1,About 10 A initial size,Install close to battery positive; verify startup current and wire protection
 Suspension,Matched coil-over shocks or spring/damper set,4,About 50-70 mm eye-to-eye; 15-25 mm wheel travel,Lower-cost option: locally fabricated springs plus rubber bump stops
-Mechanical,Chassis plate,1,Approx 300 x 240 mm; 3 mm plywood or 2-3 mm aluminium,Keep body inside wheel track
+Mechanical,Chassis plate,1,Approx 300 x 240 mm; 3 mm plywood or 2-3 mm aluminium,Use 270 mm wheel track; keep body within tire outer edges
 Mechanical,Trailing-arm links,4,2-3 mm aluminium flat bar or reinforced plywood; about 65-75 mm long,One arm per wheel; M4/M5 pivot bolts and bushes
 Mechanical,Roll hoop / bumper,1,Light aluminium rod or bent strip,Protect battery and electronics during a tip
 Wiring,Motor/power wire and connectors,As needed,16 AWG battery/motor leads; smaller signal wire,Keep motor power away from ESP32 antenna; common ground
+
