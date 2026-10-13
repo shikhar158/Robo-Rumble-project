@@ -57,6 +57,7 @@ flowchart LR
 
 Trailing arms let the wheels follow uneven ground and maintain tire contact. Springs and damping soften sharp impacts that can bounce the chassis sideways. A low CG and wide track increase the support margin while the suspension reduces sudden wheel lift. Set spring preload moderately and limit travel: excessive body lean from a soft suspension can make rollover easier. Passive suspension cannot guarantee no rollover and cannot right a fully inverted robot; active recovery requires a separate mechanism.
 
-A rough static comparison is `critical tip angle ≈ atan(track / (2 × CG height))`. With 230 mm track and 90 mm CG height, the idealized result is about 52°. Motion, suspension lean, and tire grip reduce the real margin; use the formula for comparing layouts, not as a safe operating limit.
+A rough static comparison is `critical tip angle ≈ tan inverse(track / (2 × CG height))`, where **tan inverse** (also written `atan` or `tan⁻¹`) converts the ratio into an angle. With 230 mm track and 90 mm CG height, the idealized result is about 52°. Motion, suspension lean, and tire grip reduce the real margin; use the formula for comparing layouts, not as a safe operating limit.
 
 See [hardware plan](hardware-plan.md), [wiring diagram](wiring-diagram.md), and [test log](test-results.md) for build details and measurements.
+
