@@ -10,7 +10,7 @@ Robo Rumble is a remote-controlled, four-wheel-drive all-terrain rover developed
 - Low-centred battery and wide wheel stance to reduce rollover risk
 - Motor command timeout and gradual acceleration in firmware
 
-Suspension helps keep wheels in contact and soften impacts; it does not by itself right an upside-down robot. See the [hardware plan](docs/hardware-plan.md) for the stability explanation.
+Suspension helps keep wheels in contact and soften impacts; it does not by itself right an upside-down robot. See the [hardware plan](docs/hardware-plan.md) and [system design](docs/system-design.md) for the stability and weight-distribution strategy.
 
 ## Build workflow
 
@@ -50,3 +50,4 @@ Use a 3S pack with an integrated BMS and its specified charger. Fit a fuse near 
 - Demo video: _Add link after recording_
 
 Example prices and availability change. See the component list and [hardware plan](docs/hardware-plan.md) for India-oriented purchase references.
+
