@@ -18,7 +18,7 @@ Suspension helps keep wheels in contact and soften impacts; it does not by itsel
 2. Build a compact chassis with four pivoting wheel arms and matched springs/dampers.
 3. Install four 12 V geared motors, high-traction wheels, two motor drivers, and a fused battery.
 4. Wire the ESP32 and drivers using the [wiring diagram](docs/wiring-diagram.md).
-5. Upload the [ESP32 firmware](firmware/src/main.ino) and test with wheels raised.
+5. Build and upload `firmware/src/main.cpp` with PlatformIO, then test with wheels raised.
 6. Test on flat ground, then gradually add uneven terrain and record results.
 
 ## Repository map
@@ -30,13 +30,14 @@ Suspension helps keep wheels in contact and soften impacts; it does not by itsel
 - `cad/chassis-layout.svg` — chassis and suspension concept drawing.
 - `docs/test-results.md` — test log.
 - `electronics/components-list.csv` — proposed India-oriented parts list.
-- `firmware/src/main.ino` — ESP32 controller for the proposed wiring.
-- `cad/` — chassis and suspension CAD files.
+- `firmware/src/main.cpp` — ESP32 C++ controller.
+- `platformio.ini` — PlatformIO board and build configuration.
+- `cad/` — chassis and suspension design files.
 - `media/` — project photos and demo links.
 
 ## Controller
 
-The ESP32 creates Wi-Fi named `RoboRumble`. Connect a phone and open `http://192.168.4.1`. The password is set in `firmware/src/main.ino`; change it before a public demo. If commands stop arriving, firmware stops the motors after a timeout.
+The ESP32 creates Wi-Fi named `RoboRumble`. Connect a phone and open `http://192.168.4.1`. The password is set in `firmware/src/main.cpp`; change it before a public demo. If commands stop arriving, firmware stops the motors after a timeout.
 
 ## Safety
 
@@ -49,5 +50,3 @@ Use a 3S pack with an integrated BMS and its specified charger. Fit a fuse near 
 - Demo video: _Add link after recording_
 
 Example prices and availability change. See the component list and [hardware plan](docs/hardware-plan.md) for India-oriented purchase references.
-
-
